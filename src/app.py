@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 G_BASE_URL = 'https://maps.googleapis.com/maps/api'
-G_API_KEY = 'AIzaSyDCyqNwpSz753CdHoRP4DCcMHEoM7k0aPE'
+G_API_KEY = 'asdasdqwewtwe'
 
 @app.route('/api/route', methods=['GET'])
 def get_route():
